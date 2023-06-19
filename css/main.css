@@ -68,7 +68,7 @@ main {
 @media screen and (max-width: 375px) {
     .hero {
         padding: 20px;
-        height: fit-content;
+        height: 100%;
     }
     .banner {
         width: 100%;
@@ -93,6 +93,7 @@ main {
         background-color: rgb(255, 196, 0);
         width: 100%;
         height: 150px;
+        /* height: 100%; */
     }
     .mainBg {
         position: absolute;
@@ -310,8 +311,11 @@ main {
         width: 276px;
         height: 195px;
     }
+    .stamp div {
+        width: 100%;
+    }
     .stamp img {
-        width: 375px;
+        width: 100%;
         height: 250px;
     }
 }
